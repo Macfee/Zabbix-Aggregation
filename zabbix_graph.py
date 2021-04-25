@@ -50,7 +50,7 @@ class Api:
                 item_ids.append(i['itemid'])
         return item_ids
 
-    def graph_create(self, graph_name=u"CIC调用总数1111"):
+    def graph_create(self, graph_name=u"xxxxx调用总数"):
         graph_create = {
             "jsonrpc": "2.0",
             "method": "graph.create",
